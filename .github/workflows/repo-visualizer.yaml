@@ -10,9 +10,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@master
 
+  tweede_job:
+    steps:
       - name: Repo Visualizer
         uses: githubocto/repo-visualizer@0.9.1
         with:
-        output_file: "output-diagram.svg"
-        artifact_name: "my-diagram"
-        should_push: false
+          output_file: "output-diagram.svg"
+          artifact_name: "my-diagram"
+          should_push: false
