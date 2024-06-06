@@ -6,11 +6,11 @@ on:
 
 jobs:
   mijn_eerste_job:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@master
-        
+
       - name: Repo Visualizer
         uses: githubocto/repo-visualizer@0.9.1
         with:
