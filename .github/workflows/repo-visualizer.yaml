@@ -1,8 +1,7 @@
 name: repo-visualizer
 on:
-  push: 
-    branches: 
-    -main
+  push:
+    branches: [ "main" ]
 
 - name: Checkout code
   uses: actions/checkout@master
